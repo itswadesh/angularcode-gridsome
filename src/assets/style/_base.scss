@@ -29,11 +29,11 @@ table th{
 // 	border:1px dashed #333;
 // 	border-radius:10px;
 // 	text-decoration: none;
+// &:hover {
+// 	opacity: .8;background-color: #eee;
 // }
-// .button:hover{
-// 	background-color: #eee;
 // }
-a:not(.button) {
+a {
 	color: var(--link-color);
  	transition: opacity .2s;
 	&:hover {

@@ -12,8 +12,11 @@ For my AngularJS applications I use PHP as my server side language which mainly 
 
 This database helper class generate the CRUD statements dynamically and always output the response in a standard format. Hence reducing the recurring tasks load on programmer. This also makes bug tracking task easy as everything stores in a central location.
 
-[Download](https://github.com/itswadesh/angularcode-database-helper-php.git)
-
+<div class="github">
+    <a href="https://github.com/itswadesh/angularcode-database-helper-php.git" rel="nofollow" target="_blank">
+        <b>PHP-MySQL CRUD</b>Download this project form Github
+    </a>
+</div>
 **I thought about sharing my work. I hope you all like it.**
 
 ### Features:

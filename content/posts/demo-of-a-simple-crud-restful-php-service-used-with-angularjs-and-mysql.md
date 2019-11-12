@@ -10,9 +10,12 @@ description: "In this tutorial we will create a RESTful web service using PHP. A
 ---
 REST represents Representational State Transfer. For web applications REST API is a good architectural choice for the communication between the app and the server. This makes sharing data between different devices and apps easy. Implementing REST is simpler compared to other methods like SOAP, CORBA, WSDL. In this tutorial we will create a RESTful web service using PHP. Also we will create a Customer Manager Application using AngularJS as front end which will consume this web service.
 
-[![crud-using-restful-webservice-with-angularjs](http://res.cloudinary.com/codenx/image/upload/v1490618684/crud-using-restful-webservice-with-angularjs2_lk6n80.jpg)](http://res.cloudinary.com/codenx/image/upload/v1490618684/crud-using-restful-webservice-with-angularjs2_lk6n80.jpg)
-
-[**Live Demo**](http://demos.angularcode.com/AngularCodeCustomerManagerApp/) [Download](https://github.com/itswadesh/simple-restful-api-angularjs.git)
+<a href="http://demos.angularcode.com/AngularCodeCustomerManagerApp/" class="button" target="_blank">Live Demo</a> 
+<div class="github">
+    <a href="https://github.com/itswadesh/simple-restful-api-angularjs.git" rel="nofollow" target="_blank">
+        <b>PHP-MySQL CRUD</b>Download this project form Github
+    </a>
+</div>
 
 In this project we will have the most simple Create, Read, Update, Delete operations on customers table using REST API. Previously we learnt [how to create a simple task manager application using AngularJS PHP and MySQL](http://angularcode.com/simple-task-manager-application-using-angularjs-php-mysql/ "Simple task manager application using AngularJS PHP MySQL"). This time we will do the same CRUD on database but in a more organised manner and using a RESTful web service using PHP, MySQL.
 

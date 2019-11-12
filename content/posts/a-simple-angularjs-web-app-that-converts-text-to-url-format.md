@@ -21,7 +21,7 @@ As a very simple application we will require much less coding using AngularJS. W
 
 ### index.html
 
-```
+``` html
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>  
 <script>  
 angular.module('myApp',[])  

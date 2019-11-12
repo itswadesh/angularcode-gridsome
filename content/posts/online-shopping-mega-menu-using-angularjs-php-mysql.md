@@ -18,7 +18,13 @@ Today we are going to create a similar megamenu using
 *   PHP (Our server side programming language for providing data from MySQL database to AngularJS Application)
 *   PHPSlim (A PHP framework to easily create ReSTFul web services) \[Optional\]
 
-[**Live Demo**](http://demos.angularcode.com/megamenu/#/) [Download](https://github.com/itswadesh/angularcode-megamenu.git)
+[**Live Demo**]() [Download]()
+<a href="http://demos.angularcode.com/megamenu/#/" class="button" target="_blank">Live Demo</a> 
+<div class="github">
+    <a href="https://github.com/itswadesh/angularcode-megamenu.git" rel="nofollow" target="_blank">
+        <b>Megamenu</b>Download this project form Github
+    </a>
+</div>
 
 The directory structure of our application as follows
 

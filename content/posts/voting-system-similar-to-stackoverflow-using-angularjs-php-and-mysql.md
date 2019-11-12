@@ -10,9 +10,12 @@ description: "We will try to create a simple voting system app similar to StackO
 ---
 We will try to create a simple voting system app similar to [StackOverflow.com](http://StackOverflow.com) using AngularJS, PHP and MySQL. I will put the code to download as well as a demonstration of the end product as we approach the finishing point of the AngularJS Web App. This app will accept vote from users and store it into MySQL database using PHP.
 
-[![Voting system using angularjs php mysql](http://res.cloudinary.com/codenx/image/upload/v1490618685/voting-system-using-angularjs1_cxo8a5.jpg)](http://res.cloudinary.com/codenx/image/upload/v1490618685/voting-system-using-angularjs1_cxo8a5.jpg)
-
-[**Live Demo**](http://demos.angularcode.com/angular-voting/) [Download](https://github.com/itswadesh/angularcode-voting-app.git)
+<a href="http://demos.angularcode.com/angular-voting/" class="button" target="_blank">Live Demo</a> 
+<div class="github">
+    <a href="https://github.com/itswadesh/angularcode-voting-app.git" rel="nofollow" target="_blank">
+        <b>Voting like Stackoverflow</b>Download this project form Github
+    </a>
+</div>
 
 The file structure of our app will be following
 

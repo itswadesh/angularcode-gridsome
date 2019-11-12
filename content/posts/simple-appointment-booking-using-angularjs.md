@@ -16,9 +16,12 @@ In this tutorial, we will create a simple, real and single page Appointment Book
 - We will integrate Google Material Design guidelines into our code for a better UI experience.
 - We will use document based no-sql database named MongoDB
 
-[**Live Demo**](http://appointment.codenx.com/) [Download](https://github.com/itswadesh/simple-appointment.git)
-
-<a class="button" href="http://appointment.codenx.com/" target="blank">Live Demo</a>
+<a href="https://appointment.itswadesh.now.sh/" class="button" target="_blank">Live Demo</a> 
+<div class="github">
+    <a href="https://github.com/itswadesh/simple-appointment.git" rel="nofollow" target="_blank">
+        <b>Simple Appointment Booking - NodeJS</b>Download this project form Github
+    </a>
+</div>
 
 ## Installation
 ### Install Required Softwares

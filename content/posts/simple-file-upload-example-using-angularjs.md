@@ -10,7 +10,12 @@ description: "In this tutorial we will create an AngularJS web app that will upl
 ---
 Hi. In this tutorial we will create an AngularJS web app that will upload the user selected file to server using nodejs. To achieve this we will use the multer node module.
 
-<a href="/" class="button">Live Demo</a> <a href="/" class="button">Download</a>
+<!-- <a href="http://mcrud.codenx.com/media" class="button" target="_blank">Live Demo</a>  -->
+<div class="github">
+    <a href="https://github.com/itswadesh/simple-file-uploader.git" rel="nofollow" target="_blank">
+        <b>Simple file upload</b>Download this project form Github
+    </a>
+</div>
 
 # Installation
 Open Command Prompt and navigate to the downloaded directory `simple-file-uploader`

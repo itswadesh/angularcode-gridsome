@@ -17,7 +17,12 @@ Last tutorial we created a [database helper class for PHP RESTful API](http://ww
 *   Animations make the user interaction much enjoyable
 *   Has extensive power to build a large inventory management application over this framework
 
-[**Live Demo**](http://demos.angularcode.com/product-manager/#/) [Download](https://github.com/itswadesh/inventory-manager-mysql-php.git)
+<a href="http://demos.angularcode.com/product-manager/#/" class="button" target="_blank">Live Demo</a> 
+<div class="github">
+    <a href="https://github.com/itswadesh/inventory-manager-mysql-php.git" rel="nofollow" target="_blank">
+        <b>Product Inventory Manager</b>Download this project form Github
+    </a>
+</div>
 
 How to use
 ----------

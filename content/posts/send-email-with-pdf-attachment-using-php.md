@@ -11,7 +11,12 @@ description: "In this tutorial we will query the MySQL database to get the updat
 
 Sometimes we may need to send email from our website to the client with some attachment. In this tutorial we will query the MySQL database to get the updated data from our table and email the data to the desired email as PDF attachment.
 
-<a href="http://demos.angularcode.com/php-send-mail-with-attachment/">Live Demo</a> <a href="https://github.com/itswadesh/php-send-mail-with-attachment">Download</a>
+<a href="http://demos.angularcode.com/php-send-mail-with-attachment/" class="button" target="_blank">Live Demo</a> 
+<div class="github">
+    <a href="https://github.com/itswadesh/php-send-mail-with-attachment" rel="nofollow" target="_blank">
+        <b>PHP Send Email</b>Download this project form Github
+    </a>
+</div>
 
 For this we will use
 

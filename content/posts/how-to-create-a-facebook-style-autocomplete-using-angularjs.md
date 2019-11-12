@@ -10,7 +10,10 @@ description: "This tutorial explains how to show autocomplete results for a text
 ---
 This tutorial explains how to show autocomplete results for a textbox input using AngularJS, PHP and MySQL with the help of Angular UI directive.
 
-[**Live Demo**](http://demos.angularcode.com/autocomplete/) [Download](https://www.dropbox.com/s/b99t820x3cgiwx7/angularcode_autocomplete.zip?dl=0)
+<a href="http://demos.angularcode.com/autocomplete/" class="button" target="_blank">Live Demo</a> 
+<a href="https://www.dropbox.com/s/b99t820x3cgiwx7/angularcode_autocomplete.zip?dl=0" rel="nofollow" target="_blank">
+    <b>Facebook type autocomplete</b>Download this project
+</a>
 
 To achieve the desired autocomplete functionality, We will be using Bootstrap UI directive library for AngularJS.
 

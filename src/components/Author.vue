@@ -8,7 +8,7 @@
 		</h1>
 
 		<p class="author__intro">
-			Latest web technology with working examples.
+			Latest web technology tutorials with working examples.
 		</p>
 
 		<p class="author__links">

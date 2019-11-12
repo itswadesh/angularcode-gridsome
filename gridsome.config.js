@@ -9,6 +9,9 @@ module.exports = {
 
   plugins: [
     {
+      use: '@gridsome/plugin-sitemap'
+    },
+    {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
@@ -25,8 +28,7 @@ module.exports = {
           plugins: [
             ['@noxify/gridsome-plugin-remark-embed', {
               'enabledProviders': ['Youtube', 'Twitter', 'Gist'],
-            }],
-            { use: '@gridsome/plugin-sitemap' }
+            }]
           ]
         }
       }

@@ -64,17 +64,17 @@ client
 
 ## index.js (NodeJS)
 
-https://gist.github.com/itswadesh/4142a06362689cd4deefbbd1bf0a9694.json
+https://gist.github.com/itswadesh/4142a06362689cd4deefbbd1bf0a9694
 
 package.json
 
-https://gist.github.com/itswadesh/d675dd64904725e7a24858fa9911ec74.json
+https://gist.github.com/itswadesh/d675dd64904725e7a24858fa9911ec74
 
 index.html
 
-https://gist.github.com/itswadesh/6d12de6fd8b3d3ec1fd5a046eac5b9c9.json
+https://gist.github.com/itswadesh/6d12de6fd8b3d3ec1fd5a046eac5b9c9
 
 app.js (AngularJS)
 
-https://gist.github.com/itswadesh/33d0755624e1a24e618dd3eba95c3a2a.json
+https://gist.github.com/itswadesh/33d0755624e1a24e618dd3eba95c3a2a
 

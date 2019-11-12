@@ -1,3 +1,3 @@
 # Angularcode
 
-> Latest web technology with working examples.
+> Latest web technology tutorials with working examples.

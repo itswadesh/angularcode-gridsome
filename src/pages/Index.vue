@@ -48,7 +48,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: "Angularcode - Latest web technology with working examples"
+    title: "Angularcode - Latest web technology tutorials with working examples"
   }
 };
 </script>

@@ -12,7 +12,7 @@ Hi. In this tutorial we will create an AngularJS web app that will upload the us
 
 <!-- <a href="http://mcrud.codenx.com/media" class="button" target="_blank">Live Demo</a>  -->
 <div class="github">
-    <a href="https://github.com/itswadesh/simple-file-uploader.git" rel="nofollow" target="_blank">
+    <a href="https://github.com/itswadesh/simple-file-uploader" rel="nofollow" target="_blank">
         <b>Simple file upload</b>Download this project form Github
     </a>
 </div>

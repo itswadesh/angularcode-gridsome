@@ -22,7 +22,7 @@ Scenario-2: We wish to send emails to our users regarding
 
 <!-- <a href="http://mail.codenx.com/" class="button" target="_blank">Live Demo</a>  -->
 <div class="github">
-    <a href="https://github.com/itswadesh/sendmail-nodejs.git" rel="nofollow" target="_blank">
+    <a href="https://github.com/itswadesh/sendmail-nodejs" rel="nofollow" target="_blank">
         <b>Send email using NodeJS</b>Download this project form Github
     </a>
 </div>

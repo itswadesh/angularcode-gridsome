@@ -12,7 +12,7 @@ This tutorial explains how to create a simple Task Manager application using Ang
 
 <a href="http://demos.angularcode.com/taskman/" class="button" target="_blank">Live Demo</a> 
 <div class="github">
-    <a href="https://github.com/itswadesh/angularcode-task-manager-app.git" rel="nofollow" target="_blank">
+    <a href="https://github.com/itswadesh/angularcode-task-manager-app" rel="nofollow" target="_blank">
         <b>Task Manager using AngularJS PHP</b>Download this project form Github
     </a>
 </div>

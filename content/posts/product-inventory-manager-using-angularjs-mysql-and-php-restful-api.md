@@ -19,7 +19,7 @@ Last tutorial we created a [database helper class for PHP RESTful API](http://ww
 
 <a href="http://demos.angularcode.com/product-manager/#/" class="button" target="_blank">Live Demo</a> 
 <div class="github">
-    <a href="https://github.com/itswadesh/inventory-manager-mysql-php.git" rel="nofollow" target="_blank">
+    <a href="https://github.com/itswadesh/inventory-manager-mysql-php" rel="nofollow" target="_blank">
         <b>Product Inventory Manager</b>Download this project form Github
     </a>
 </div>

@@ -18,7 +18,7 @@ In this tutorial, we will create a simple, real and single page Appointment Book
 
 <a href="https://appointment.itswadesh.now.sh/" class="button" target="_blank">Live Demo</a> 
 <div class="github">
-    <a href="https://github.com/itswadesh/simple-appointment.git" rel="nofollow" target="_blank">
+    <a href="https://github.com/itswadesh/simple-appointment" rel="nofollow" target="_blank">
         <b>Simple Appointment Booking - NodeJS</b>Download this project form Github
     </a>
 </div>

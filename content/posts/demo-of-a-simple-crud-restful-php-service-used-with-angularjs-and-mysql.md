@@ -12,7 +12,7 @@ REST represents Representational State Transfer. For web applications REST API i
 
 <a href="http://demos.angularcode.com/AngularCodeCustomerManagerApp/" class="button" target="_blank">Live Demo</a> 
 <div class="github">
-    <a href="https://github.com/itswadesh/simple-restful-api-angularjs.git" rel="nofollow" target="_blank">
+    <a href="https://github.com/itswadesh/simple-restful-api-angularjs" rel="nofollow" target="_blank">
         <b>PHP-MySQL CRUD</b>Download this project form Github
     </a>
 </div>

@@ -18,7 +18,7 @@ We will create a ReSTful web service using PHPSlim framework as data provider. T
 
 <a href="http://demos.angularcode.com/angularcode-authentication-app/#/login" class="button" target="_blank">Live Demo</a> 
 <div class="github">
-    <a href="https://github.com/itswadesh/angularcode-authentication-app.git" rel="nofollow" target="_blank">
+    <a href="https://github.com/itswadesh/angularcode-authentication-app" rel="nofollow" target="_blank">
         <b>Authentication using AngularJS, PHP, MySQL</b>Download this project form Github
     </a>
 </div>

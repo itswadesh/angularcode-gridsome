@@ -12,7 +12,7 @@ This tutorial explains how to create a datagrid similar to ASP.NET gridview with
 
 <a href="http://demos.angularcode.com/grid/" class="button" target="_blank">Live Demo</a> 
 <div class="github">
-    <a href="https://github.com/itswadesh/angularcode-datagrid.git" rel="nofollow" target="_blank">
+    <a href="https://github.com/itswadesh/angularcode-datagrid" rel="nofollow" target="_blank">
         <b>Datagrid using AngularJS</b>Download this project form Github
     </a>
 </div>

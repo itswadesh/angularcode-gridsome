@@ -12,7 +12,7 @@ We will try to create a simple voting system app similar to [StackOverflow.com](
 
 <a href="http://demos.angularcode.com/angular-voting/" class="button" target="_blank">Live Demo</a> 
 <div class="github">
-    <a href="https://github.com/itswadesh/angularcode-voting-app.git" rel="nofollow" target="_blank">
+    <a href="https://github.com/itswadesh/angularcode-voting-app" rel="nofollow" target="_blank">
         <b>Voting like Stackoverflow</b>Download this project form Github
     </a>
 </div>

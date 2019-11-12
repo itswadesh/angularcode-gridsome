@@ -25,7 +25,8 @@ module.exports = {
           plugins: [
             ['@noxify/gridsome-plugin-remark-embed', {
               'enabledProviders': ['Youtube', 'Twitter', 'Gist'],
-            }]
+            }],
+            { use: '@gridsome/plugin-sitemap' }
           ]
         }
       }

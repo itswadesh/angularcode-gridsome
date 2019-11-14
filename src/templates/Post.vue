@@ -8,21 +8,35 @@
       <PostMeta :post="$page.post" />
 
     </div>
+    <div class="fx">
+      <div class="post content-box">
+        <div class="post__header">
+          <g-image
+            alt="Cover image"
+            v-if="$page.post.cover_image"
+            :src="$page.post.cover_image"
+          />
+        </div>
 
-    <div class="post content-box">
-      <div class="post__header">
-        <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
+        <div
+          class="post__content"
+          v-html="$page.post.content"
+        />
+
+        <div class="post__footer">
+          <PostTags :post="$page.post" />
+        </div>
       </div>
-
-      <div class="post__content" v-html="$page.post.content" />
-
-      <div class="post__footer">
-        <PostTags :post="$page.post" />
+      <div>
+        <RightSidebar />
       </div>
     </div>
-
     <div class="post-comments">
       <!-- Add comment widgets here -->
+      <vue-disqus
+        shortname="angularcode"
+        :identifier="$page.post.title"
+      ></vue-disqus>
     </div>
 
     <Author class="post-author" />
@@ -30,28 +44,30 @@
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
-import PostTags from '~/components/PostTags'
-import Author from '~/components/Author.vue'
+import PostMeta from "~/components/PostMeta";
+import PostTags from "~/components/PostTags";
+import Author from "~/components/Author.vue";
+import RightSidebar from "~/components/RightSidebar.vue";
 
 export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
+    RightSidebar
   },
-  metaInfo () {
+  metaInfo() {
     return {
       title: this.$page.post.title,
       meta: [
         {
-          name: 'description',
+          name: "description",
           content: this.$page.post.description
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <page-query>
@@ -74,13 +90,15 @@ query Post ($id: ID!) {
 </page-query>
 
 <style lang="scss">
+.fx {
+  display: flex;
+}
 .post-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
   text-align: center;
 }
 
 .post {
-
   &__header {
     width: calc(100% + var(--space) * 2);
     margin-left: calc(var(--space) * -1);

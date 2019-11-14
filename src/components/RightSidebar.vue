@@ -1,0 +1,249 @@
+<template>
+  <div class="rightside">
+    <a
+      target="_blank"
+      href="http://preview.codecanyon.net/item/progressive-single-page-ecommerce-app-using-vuejs/full_screen_preview/20596887"
+    >
+      <img src="https://s3.envato.com/files/236941986/banner.png">
+    </a>
+    <iframe
+      id="twitter-widget-0"
+      scrolling="no"
+      frameborder="0"
+      allowtransparency="true"
+      class="twitter-follow-button twitter-follow-button-rendered"
+      style="position: static; visibility: visible; width: 212px; height: 20px;"
+      title="Twitter Follow Button"
+      src="https://platform.twitter.com/widgets/follow_button.2d991e3dfc9abb2549972ce8b64c5d85.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=itswadesh&amp;show_count=true&amp;show_screen_name=true&amp;size=m&amp;time=1573718937027"
+      data-screen-name="itswadesh"
+    ></iframe>
+    <iframe
+      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcodenx2%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=169430647069214"
+      width="340"
+      height="500"
+      style="border:none;overflow:hidden"
+      scrolling="no"
+      frameborder="0"
+      allowTransparency="true"
+      allow="encrypted-media"
+    ></iframe>
+    <div class="section-links">
+      <div>
+        Subscribe my updates via <b>Email </b>
+      </div>
+      <div>
+        <form
+          action="https://feedburner.google.com/fb/a/mailverify"
+          method="post"
+        ><input
+            class="feedinput"
+            id="femail"
+            name="email"
+            type="text"
+          ><input
+            name="uri"
+            type="hidden"
+            value="angularcode"
+          ><input
+            name="loc"
+            type="hidden"
+            value="en_US"
+          ><input
+            class="wallButton"
+            name="sign up"
+            type="submit"
+            value="Sign Up"
+          ></form>
+      </div>
+      <div class="marginfive">
+        <div>
+          <a
+            href="https://feeds2.feedburner.com/angularcode"
+            title="itswadesh feed"
+          ><img
+              alt="feed"
+              height="26"
+              id="fcount"
+              src="https://feeds2.feedburner.com/~fc/angularcode?bg=f2a0bb&amp;fg=000000&amp;anim=0&amp;label=Readers"
+              width="88"
+            ></a>
+        </div>
+      </div>
+      <div class="clearboth"></div>
+
+    </div>
+    <div class="side_box vcard">
+      <h3>Most Popular Posts</h3>
+      <ul
+        class="section"
+        id="addsections7"
+      >
+        <li
+          v-for="edge in $static.posts.edges"
+          :key="edge.node.id"
+          :post="edge.node"
+        >
+          <a :href="edge.node.path">{{edge.node.title}}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="section-links">
+      <h3>Categories</h3>
+      <div class="spacer"></div>
+      <div class="site-reviews f45">
+        <ul
+          v-for="tag in $static.tags.edges"
+          :key="tag.node.id"
+        >
+          <li><a :href="tag.node.path">{{tag.node.title}}</a></li>
+        </ul>
+      </div>
+      <div class="spacer he1"></div>
+    </div>
+    <iframe
+      src="https://www.youtube.com/embed/KtNsGSonhrA"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/pKhGc993kz4"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/WvcnysbRe8w"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/wfP4tXxwF3A"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/IFKuimfFwy4"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/JujwU3yxAj8"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/KQteovedgJc"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/vbG3vIuNcrc"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/JujwU3yxAj8"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <!-- <div class="mr-25 card pk-4">
+      <a
+        href="https://www.youtube.com/watch?v=pKhGc993kz4&amp;rel=0"
+        data-toggle="lightbox"
+      >
+        <img
+          class="img-fluid"
+          src="img/1.jpg"
+        >
+      </a>
+      <div class="pt-5">
+        <h6 class="text-warning mb-2">
+          <strong>Deploy to heroku:</strong>
+        </h6>
+        <p class="card-para">Arialshop - The progressive ecommerce app</p>
+      </div>
+
+    </div> -->
+  </div>
+</template>
+
+<static-query>
+query {
+  tags: allTag {
+      edges{
+          node{
+              id,
+              title,
+              path
+          }
+      }
+  }
+  posts: allPost(filter: { published: { eq: true }}) {
+    edges {
+      node {
+          id,
+        title
+        path
+      }
+    }
+  }
+}
+</static-query>
+<style>
+iframe {
+  margin-bottom: 20px;
+}
+ul li {
+  list-style: none;
+  margin: 10px -10px;
+}
+ul li a {
+  color: #444;
+  font-size: 0.8rem;
+}
+.rightside {
+  vertical-align: text-top;
+  width: 300px;
+}
+.side_box {
+  background: url(https://lh4.googleusercontent.com/-JFPstwNikuY/U7wBVAaP1EI/AAAAAAAAK-0/kUAEsg9xyRw/s16/shade.png);
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+.section-links {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 8px;
+  color: #333333;
+  border-bottom: #fff solid 1px;
+}
+.p5 {
+  padding-top: 5px;
+}
+.section-links {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 8px;
+  color: #333333;
+  border-bottom: #fff solid 1px;
+}
+.buy {
+  display: block;
+  overflow: auto;
+}
+.widget-item-control {
+  float: right;
+  height: 20px;
+  margin-top: -20px;
+  position: relative;
+  z-index: 10;
+}
+</style>

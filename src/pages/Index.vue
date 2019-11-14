@@ -11,7 +11,7 @@
         :post="edge.node"
       />
     </div>
-
+    <RightSidebar />
   </Layout>
 </template>
 
@@ -41,11 +41,13 @@ query {
 <script>
 import Author from "~/components/Author.vue";
 import PostCard from "~/components/PostCard.vue";
+import RightSidebar from "~/components/RightSidebar.vue";
 
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
+    RightSidebar
   },
   metaInfo: {
     title: "Angularcode - Latest web technology tutorials with working examples"

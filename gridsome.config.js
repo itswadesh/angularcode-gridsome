@@ -10,6 +10,12 @@ module.exports = {
 
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-49421899-1'
+      }
+    },
+    {
       use: '@gridsome/plugin-sitemap'
     },
     {

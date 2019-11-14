@@ -11,7 +11,7 @@ description: "Here are complete steps to get started with elasticsearch on Ubunt
 
 Here are complete steps to get started with elasticsearch on Ubuntu machine
 
-Step-1: Install Java
+# Step-1: Install Java
 ```
 sudo apt-get update
 sudo apt-get install oracle-java11-installer-local
@@ -28,7 +28,7 @@ Check if java installed properly
 java -version
 echo $JAVA_HOME
 ```
-Step-2: Install elastic search
+# Step-2: Install elastic search
 ```
 sudo apt-get install apt-transport-https
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
@@ -37,7 +37,7 @@ sudo apt-get update
 sudo apt-get install elasticsearch
 ```
 
-Step-3: Configure elasticsearch
+# Step-3: Configure elasticsearch
 ```
 sudo nano /etc/elasticsearch/elasticsearch.yml
 ```
@@ -47,7 +47,7 @@ Change the fllowing
 network.host: 0.0.0.0
 ```
 
-Step-4: Setup JVM options based on available RAM
+# Step-4: Setup JVM options based on available RAM
 ```
 nano /etc/elasticsearch/jvm.options
 ```
@@ -57,13 +57,13 @@ Change the following values
 -Xmx256m
 ```
 
-Step-5: Start elasticsearch service
+# Step-5: Start elasticsearch service
 ```
 service elasticsearch start
 service elasticsearch status
 ```
 
-Step-6: Verify elasticsearch running
+# Step-6: Verify elasticsearch running
 
 ```
 curl -X GET "http://localhost:9200/?pretty"

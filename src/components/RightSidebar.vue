@@ -165,7 +165,7 @@ export default {
       </div>
       <div class="spacer he1"></div>
     </div>
-    <iframe
+    <!-- <iframe
       src="https://www.youtube.com/embed/KtNsGSonhrA"
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -218,7 +218,7 @@ export default {
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-    ></iframe>
+    ></iframe> -->
     <!-- <div class="mr-25 card pk-4">
       <a
         href="https://www.youtube.com/watch?v=pKhGc993kz4&amp;rel=0"
@@ -283,17 +283,12 @@ ul li a {
   padding: 10px;
 }
 .subscription-box {
-  /* margin-top: 1rem; */
   margin-bottom: 1rem;
   line-height: 16px;
-  color: #333333;
-  border-bottom: #fff solid 1px;
 }
 .section-links {
   margin-top: 1rem;
   line-height: 16px;
-  color: #333333;
-  border-bottom: #fff solid 1px;
 }
 .subscribe-email {
   padding: 14px 20px;

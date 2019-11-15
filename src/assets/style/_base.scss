@@ -30,11 +30,9 @@ a:hover{
     text-decoration: underline;
 }
 .button{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     text-align: center;
     display: inline-block;
-    padding: .75rem 1rem .75rem 1rem;
+    padding: .75rem .5rem;
     text-transform: uppercase;
     font-size: .75rem;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
@@ -49,6 +47,16 @@ a:hover{
     background-color: #00c58e;
     color: #fff;
 }
+.notification{
+    padding:2rem;
+    margin:1rem;
+    background:lightgreen;
+    color:#333333;
+    justify-content: center;
+}
+.center{
+    justify-content: center;
+}
 // .button{
 // 	padding:10px;
 // 	margin:20px;
@@ -61,6 +69,7 @@ a:hover{
 // }
 .fx{
     display: flex;
+    flex-wrap: wrap;
 }
 button{
     cursor: pointer;

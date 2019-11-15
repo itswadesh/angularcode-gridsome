@@ -8,7 +8,10 @@
       <PostMeta :post="$page.post" />
 
     </div>
-    <div class="fx">
+    <div
+      class="fx center"
+      style="margin:0 auto"
+    >
       <div class="post content-box">
         <div class="post__header">
           <g-image

@@ -36,7 +36,7 @@ export default {
       </div>
       <div>
         <form
-          name="contact"
+          name="subscribers"
           method="post"
           v-on:submit.prevent="handleSubmit"
           action="/success/"
@@ -46,7 +46,7 @@ export default {
           <input
             type="hidden"
             name="form-name"
-            value="contact"
+            value="subscribers"
           />
           <p hidden>
             <label>
@@ -274,6 +274,7 @@ ul li a {
   font-size: 0.8rem;
 }
 .rightside {
+  margin-left: 1rem;
   vertical-align: text-top;
   width: 340px;
   margin-right: 1rem;

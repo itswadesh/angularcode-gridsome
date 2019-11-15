@@ -19,7 +19,7 @@ Today we are going to create a similar megamenu using
 *   PHPSlim (A PHP framework to easily create ReSTFul web services) \[Optional\]
 
 [**Live Demo**]() [Download]()
-<a href="http://demos.angularcode.com/megamenu/#/" class="button" target="_blank">Live Demo</a> 
+<a href="http://demos.angularcode.com/megamenu/#/" class="button green" target="_blank">Live Demo</a> 
 <div class="github">
     <a href="https://github.com/itswadesh/angularcode-megamenu" rel="nofollow" target="_blank">
         <b>Megamenu</b>Download this project form Github

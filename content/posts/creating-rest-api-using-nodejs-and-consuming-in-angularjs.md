@@ -14,7 +14,7 @@ NodeJS is an awesome light weight, non-blocking platform to have at your server 
 
 We will create a simple inventory manager app which will communicate to database
 
-<!-- <a href="http://rest.iotutorials.com/" class="button" target="_blank">Live Demo</a>  -->
+<!-- <a href="http://rest.iotutorials.com/" class="button green" target="_blank">Live Demo</a>  -->
 <div class="github">
     <a href="https://github.com/itswadesh/simple-restful-api-angularjs" rel="nofollow" target="_blank">
         <b>Inventory Manager using AngularJS</b>Download this project form Github

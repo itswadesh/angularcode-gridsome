@@ -16,7 +16,7 @@ _\* Login, Signup and Logout._\*
 
 We will create a ReSTful web service using PHPSlim framework as data provider. The data from the ReSTful service will be used to enable user authentication in our AngularJS application.
 
-<a href="http://demos.angularcode.com/angularcode-authentication-app/#/login" class="button" target="_blank">Live Demo</a> 
+<a href="http://demos.angularcode.com/angularcode-authentication-app/#/login" class="button green" target="_blank">Live Demo</a> 
 <div class="github">
     <a href="https://github.com/itswadesh/angularcode-authentication-app" rel="nofollow" target="_blank">
         <b>Authentication using AngularJS, PHP, MySQL</b>Download this project form Github

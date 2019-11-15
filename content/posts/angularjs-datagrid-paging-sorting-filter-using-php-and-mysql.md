@@ -10,7 +10,7 @@ description: "This tutorial explains how to create a datagrid similar to ASP.NET
 ---
 This tutorial explains how to create a datagrid similar to ASP.NET gridview with client side paging, searching and sorting functionality using AngularJS, PHP, MySQL. Following are links to the demo and download of the final application.
 
-<a href="http://demos.angularcode.com/grid/" class="button" target="_blank">Live Demo</a> 
+<!-- <a href="http://demos.angularcode.com/grid/" target="_blank" class="button green"> Live Demo </a>  -->
 <div class="github">
     <a href="https://github.com/itswadesh/angularcode-datagrid" rel="nofollow" target="_blank">
         <b>Datagrid using AngularJS</b>Download this project form Github

@@ -20,7 +20,7 @@ Scenario-2: We wish to send emails to our users regarding
 - Reset password success
 - Invalid activity
 
-<!-- <a href="http://mail.codenx.com/" class="button" target="_blank">Live Demo</a>  -->
+<!-- <a href="http://mail.codenx.com/" class="button green" target="_blank">Live Demo</a>  -->
 <div class="github">
     <a href="https://github.com/itswadesh/sendmail-nodejs" rel="nofollow" target="_blank">
         <b>Send email using NodeJS</b>Download this project form Github

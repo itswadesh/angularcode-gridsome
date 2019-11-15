@@ -1,11 +1,50 @@
 <template>
   <div class="rightside">
-    <a
-      target="_blank"
-      href="http://preview.codecanyon.net/item/progressive-single-page-ecommerce-app-using-vuejs/full_screen_preview/20596887"
-    >
-      <img src="https://s3.envato.com/files/236941986/banner.png">
-    </a>
+    <div class="section-links">
+      <div>
+        Subscribe my updates via <b>Email </b>
+      </div>
+      <div>
+        <form
+          action="https://feedburner.google.com/fb/a/mailverify"
+          method="post"
+        ><input
+            class="subscribe-email"
+            id="femail"
+            name="email"
+            type="text"
+            placeholder="youremail@example.com"
+          ><input
+            name="uri"
+            type="hidden"
+            value="angularcode"
+          ><input
+            name="loc"
+            type="hidden"
+            value="en_US"
+          ><a
+            class="button green"
+            name="sign up"
+            type="submit"
+          >Subscribe</a></form>
+      </div>
+      <!-- <div class="marginfive">
+        <div>
+          <a
+            href="https://feeds2.feedburner.com/angularcode"
+            title="itswadesh feed"
+          ><img
+              alt="feed"
+              height="26"
+              id="fcount"
+              src="https://feeds2.feedburner.com/~fc/angularcode?bg=f2a0bb&amp;fg=000000&amp;anim=0&amp;label=Readers"
+              width="88"
+            ></a>
+        </div>
+      </div> -->
+      <div class="clearboth"></div>
+
+    </div>
     <iframe
       id="twitter-widget-0"
       scrolling="no"
@@ -27,51 +66,12 @@
       allowTransparency="true"
       allow="encrypted-media"
     ></iframe>
-    <div class="section-links">
-      <div>
-        Subscribe my updates via <b>Email </b>
-      </div>
-      <div>
-        <form
-          action="https://feedburner.google.com/fb/a/mailverify"
-          method="post"
-        ><input
-            class="feedinput"
-            id="femail"
-            name="email"
-            type="text"
-          ><input
-            name="uri"
-            type="hidden"
-            value="angularcode"
-          ><input
-            name="loc"
-            type="hidden"
-            value="en_US"
-          ><input
-            class="wallButton"
-            name="sign up"
-            type="submit"
-            value="Sign Up"
-          ></form>
-      </div>
-      <div class="marginfive">
-        <div>
-          <a
-            href="https://feeds2.feedburner.com/angularcode"
-            title="itswadesh feed"
-          ><img
-              alt="feed"
-              height="26"
-              id="fcount"
-              src="https://feeds2.feedburner.com/~fc/angularcode?bg=f2a0bb&amp;fg=000000&amp;anim=0&amp;label=Readers"
-              width="88"
-            ></a>
-        </div>
-      </div>
-      <div class="clearboth"></div>
-
-    </div>
+    <a
+      target="_blank"
+      href="http://preview.codecanyon.net/item/progressive-single-page-ecommerce-app-using-vuejs/full_screen_preview/20596887"
+    >
+      <img src="https://s3.envato.com/files/236941986/banner.png">
+    </a>
     <div class="side_box vcard">
       <h3>Most Popular Posts</h3>
       <ul
@@ -206,34 +206,45 @@ ul li {
   margin: 10px -10px;
 }
 ul li a {
-  color: #444;
   font-size: 0.8rem;
 }
 .rightside {
   vertical-align: text-top;
-  width: 300px;
+  width: 340px;
+  margin-right: 1rem;
 }
 .side_box {
-  background: url(https://lh4.googleusercontent.com/-JFPstwNikuY/U7wBVAaP1EI/AAAAAAAAK-0/kUAEsg9xyRw/s16/shade.png);
   padding: 10px;
-  background-color: #f2f2f2;
 }
 .section-links {
-  font-size: 12px;
+  margin-top: 1rem;
   line-height: 16px;
-  padding: 4px 8px;
   color: #333333;
   border-bottom: #fff solid 1px;
+}
+.subscribe-email {
+  padding: 14px 20px;
+  width: 219px;
+  border: none;
+  color: #738a94;
+  font-size: 0.75rem;
+  line-height: 0.75em;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  border-radius: 8px;
+  transition: border-color 0.15s linear;
+  -webkit-appearance: none;
+  margin-right: 5px;
+}
+.subscribe-email:focus {
+  outline: none;
 }
 .p5 {
   padding-top: 5px;
-}
-.section-links {
-  font-size: 12px;
-  line-height: 16px;
-  padding: 4px 8px;
-  color: #333333;
-  border-bottom: #fff solid 1px;
 }
 .buy {
   display: block;
@@ -245,5 +256,8 @@ ul li a {
   margin-top: -20px;
   position: relative;
   z-index: 10;
+}
+form {
+  margin-top: 1rem;
 }
 </style>

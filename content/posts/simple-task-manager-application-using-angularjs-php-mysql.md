@@ -10,7 +10,7 @@ description: "This tutorial explains how to create a simple Task Manager applica
 ---
 This tutorial explains how to create a simple Task Manager application using AngularJS. Here I used PHP for server side communication and MySQL for database.
 
-<a href="http://demos.angularcode.com/taskman/" class="button" target="_blank">Live Demo</a> 
+<a href="http://demos.angularcode.com/taskman/" class="button green" target="_blank">Live Demo</a> 
 <div class="github">
     <a href="https://github.com/itswadesh/angularcode-task-manager-app" rel="nofollow" target="_blank">
         <b>Task Manager using AngularJS PHP</b>Download this project form Github

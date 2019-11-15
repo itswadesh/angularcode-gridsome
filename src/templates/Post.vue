@@ -36,10 +36,10 @@
     </div>
     <div class="post-comments">
       <!-- Add comment widgets here -->
-      <vue-disqus
+      <!-- <vue-disqus
         shortname="angularcode"
         :identifier="$page.post.title"
-      ></vue-disqus>
+      ></vue-disqus> -->
     </div>
 
     <Author class="post-author" />

@@ -1,3 +1,33 @@
+<script>
+export default {
+  data() {
+    return {
+      formData: {}
+    };
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
+    },
+    handleSubmit(e) {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: this.encode({
+          "form-name": e.target.getAttribute("name"),
+          ...this.formData
+        })
+      })
+        .then(() => this.$router.push("/success"))
+        .catch(error => alert(error));
+    }
+  }
+};
+</script>
 <template>
   <div class="rightside">
     <div class="subscription-box">
@@ -6,15 +36,49 @@
       </div>
       <div>
         <form
+          name="contact"
+          method="post"
+          v-on:submit.prevent="handleSubmit"
+          action="/success/"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input
+            type="hidden"
+            name="form-name"
+            value="contact"
+          />
+          <p hidden>
+            <label>
+              Don’t fill this out: <input name="bot-field" />
+            </label>
+          </p>
+          <div class="sender-info fx">
+            <input
+              class="subscribe-email"
+              placeholder="youremail@example.com"
+              type="email"
+              name="email"
+              v-model="formData.email"
+            />
+            <button
+              class="button green"
+              name="subscribe"
+              type="submit"
+            >Subscribe</button>
+          </div>
+        </form>
+      </div>
+      <!-- <form
           action="https://feedburner.google.com/fb/a/mailverify"
           method="post"
           class="fx"
         ><input
-            class="subscribe-email"
+            class="subscribe-email" placeholder="youremail@example.com"
             id="femail"
             name="email"
             type="text"
-            placeholder="youremail@example.com"
+            
           ><input
             name="uri"
             type="hidden"
@@ -27,8 +91,8 @@
             class="button green"
             name="sign up"
             type="submit"
-          >Subscribe</button></form>
-      </div>
+          >Subscribe</button></form> -->
+      <!-- </div> -->
       <!-- <div class="marginfive">
         <div>
           <a

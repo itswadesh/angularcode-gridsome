@@ -1,6 +1,6 @@
 <template>
   <div class="rightside">
-    <div class="section-links">
+    <div class="subscription-box">
       <div>
         Subscribe my updates via <b>Email </b>
       </div>
@@ -8,6 +8,7 @@
         <form
           action="https://feedburner.google.com/fb/a/mailverify"
           method="post"
+          class="fx"
         ><input
             class="subscribe-email"
             id="femail"
@@ -22,11 +23,11 @@
             name="loc"
             type="hidden"
             value="en_US"
-          ><a
+          ><button
             class="button green"
             name="sign up"
             type="submit"
-          >Subscribe</a></form>
+          >Subscribe</button></form>
       </div>
       <!-- <div class="marginfive">
         <div>
@@ -216,6 +217,13 @@ ul li a {
 .side_box {
   padding: 10px;
 }
+.subscription-box {
+  /* margin-top: 1rem; */
+  margin-bottom: 1rem;
+  line-height: 16px;
+  color: #333333;
+  border-bottom: #fff solid 1px;
+}
 .section-links {
   margin-top: 1rem;
   line-height: 16px;
@@ -242,6 +250,9 @@ ul li a {
 }
 .subscribe-email:focus {
   outline: none;
+}
+.button {
+  margin-bottom: 0;
 }
 .p5 {
   padding-top: 5px;

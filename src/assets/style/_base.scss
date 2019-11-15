@@ -59,6 +59,13 @@ a:hover{
 // 	opacity: .8;background-color: #eee;
 // }
 // }
+.fx{
+    display: flex;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
 a {
 	color: var(--link-color);
  	transition: opacity .2s;

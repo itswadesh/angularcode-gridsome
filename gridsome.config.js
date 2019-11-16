@@ -1,7 +1,7 @@
 module.exports = {
   siteName: 'Angularcode',
   siteUrl: 'https://www.angularcode.com',
-  siteDescription: 'Latest web technology with working examples.',
+  siteDescription: 'Latest web technology tutorials with working examples.',
 
   templates: {
     Post: '/:title',
@@ -35,7 +35,8 @@ module.exports = {
           plugins: [
             ['@noxify/gridsome-plugin-remark-embed', {
               'enabledProviders': ['Youtube', 'Twitter', 'Gist'],
-            }]
+            }],
+            '@gridsome/remark-prismjs'
           ]
         }
       }
@@ -47,10 +48,7 @@ module.exports = {
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
-      plugins: [
-        '@gridsome/remark-prismjs'
-      ]
+      anchorClassName: 'icon icon-link'
     }
   }
 }

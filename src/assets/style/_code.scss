@@ -7,19 +7,18 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
  * @author Lea Verou
  */
 pre {
-  padding: calc(var(--space) / 2);
-  font-size: .85em;
-  background-color: var(--bg-code);
-  margin-bottom: 2em;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius);
+	color:#fff;
+	// width: 330px;
+	overflow: auto;
+	padding: calc(var(--space) / 2);
+	background-color: var(--bg-code);
+	margin-bottom: 2em;
+	border-radius: var(--radius);
 }
 
 code {
   background-color: var(--bg-code);
-  border: 1px solid var(--border-color);
-  font-size: .85em;
-  padding: .2em .5em;
+  padding: .2em 0;
 }
 
 code[class*="language-"],
@@ -69,7 +68,7 @@ pre[class*="language-"] {
 }
 
 .token.punctuation {
-	color: #999;
+	color: #f8f8f2;
 }
 
 .namespace {
@@ -83,7 +82,7 @@ pre[class*="language-"] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-	color: #c71b7b;
+	color: #f92672;
 }
 
 .token.selector,
@@ -92,7 +91,7 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-	color: #690;
+	color: #a6e22e;
 }
 
 .token.operator,

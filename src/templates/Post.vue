@@ -9,10 +9,10 @@
 
     </div>
     <div
-      class="fx center"
+      class="grid"
       style="margin:0 auto"
     >
-      <div class="post content-box">
+      <div class="post content-box container">
         <div class="post__header">
           <g-image
             alt="Cover image"
@@ -93,14 +93,18 @@ query Post ($id: ID!) {
 </page-query>
 
 <style lang="scss">
-.fx {
-  display: flex;
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 186px);
+}
+.container {
+  justify-items: center;
 }
 .post-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
   text-align: center;
 }
-
 .post {
   &__header {
     width: calc(100% + var(--space) * 2);

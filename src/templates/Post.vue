@@ -94,10 +94,22 @@ query Post ($id: ID!) {
 
 <style lang="scss">
 .grid {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, 186px);
+  display: flex;
+  // grid-gap: 10px;
+  // grid-template-columns: repeat(auto-fill, 186px);
 }
+@media only print {
+  .grid {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1272px) {
+  .grid {
+    display: block;
+  }
+}
+
 .container {
   justify-items: center;
 }

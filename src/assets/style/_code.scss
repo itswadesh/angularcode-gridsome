@@ -9,7 +9,7 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
 pre {
 	color:#fff;
 	// width: 330px;
-	overflow: auto;
+	overflow-x: auto;
 	padding: calc(var(--space) / 2);
 	background-color: var(--bg-code);
 	margin-bottom: 2em;
@@ -17,8 +17,12 @@ pre {
 }
 
 code {
-  background-color: var(--bg-code);
-  padding: .2em 0;
+	color:#fff;
+	background-color: var(--bg-code);
+	padding: 0 .5em;
+	// margin-bottom: 2em;
+	border-radius: var(--radius);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
 
 code[class*="language-"],
@@ -51,7 +55,6 @@ pre[class*="language-"] {
 
 /* Code blocks */
 pre[class*="language-"] {
-	overflow: auto;
 }
 
 /* Inline code */

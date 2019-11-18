@@ -279,6 +279,12 @@ ul li a {
   width: 340px;
   margin-right: 1rem;
 }
+@media only screen and (max-width: 1272px) {
+  .rightside {
+    display: none;
+    margin-left: 0;
+  }
+}
 .side_box {
   padding: 10px;
 }

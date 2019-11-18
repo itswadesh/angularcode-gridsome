@@ -52,6 +52,7 @@ e.g. `ssh -i D:/ssh/key-file.ppk root@100.100.0.100`
 
 <h1 id="install"> Install NodeJS</h1>
 Get the node source and install it
+
 ```
 sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 sudo apt-get install nodejs -y
@@ -59,33 +60,39 @@ sudo apt-get install nodejs -y
 
 <h1 id="configure"> Configure timezone</h1>
 This is essential when you deal with dates in your application
+
 ```
 sudo dpkg-reconfigure tzdata # Add timezone as Kolkata
 ```
 
 <h1 id="database"> Install Database (MongoDB) </h1>
 Create a list file for MongoDB
+
 ```
 echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
 ```
 
 Install
+
 ```
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
 
 Start MongoDB Service
+
 ```
 sudo service mongod start
 ```
 
 Edit the mongod.config
+
 ```
 sudo nano /etc/mongod.conf
 ```
 
 Change line 23 to bindIp: 0.0.0.0
+
 ```
 sudo service mongod restart
 ```

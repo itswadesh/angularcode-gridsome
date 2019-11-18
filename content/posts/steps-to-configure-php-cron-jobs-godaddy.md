@@ -1,5 +1,5 @@
 ---
-title: Steps to configure PHP Cron Jobs - Godaddy
+title: Steps configuring PHP Cron Jobs - Godaddy
 date: 2019-06-06
 published: true
 tags: ['Godaddy', 'PHP', 'Cron Jobs']

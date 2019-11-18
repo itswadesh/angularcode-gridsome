@@ -122,9 +122,9 @@ export default {
       data-screen-name="itswadesh"
     ></iframe>
     <iframe
-      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcodenx2%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=169430647069214"
+      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcodenx2%2F&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=169430647069214"
       width="340"
-      height="500"
+      height="220"
       style="border:none;overflow:hidden"
       scrolling="no"
       frameborder="0"

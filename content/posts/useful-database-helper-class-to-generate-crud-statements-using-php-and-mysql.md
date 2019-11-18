@@ -1,5 +1,5 @@
 ---
-title: Useful database helper class to generate CRUD statements using PHP and MySQL
+title: Useful database helper class to generate CRUD statements using PHP and Mysql
 date: 2019-07-12
 published: true
 tags: ['ReST', 'PHP', 'AngularJS', 'CRUD']

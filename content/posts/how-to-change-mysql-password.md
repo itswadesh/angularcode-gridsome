@@ -1,5 +1,5 @@
 ---
-title: How to change MySQL password
+title: How to change Mysql password
 date: 2019-06-02
 published: true
 tags: ['MySQL', 'Password']

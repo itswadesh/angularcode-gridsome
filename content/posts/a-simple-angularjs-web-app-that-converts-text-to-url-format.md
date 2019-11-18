@@ -1,5 +1,5 @@
 ---
-title: A simple AngularJS web app that converts text to url format
+title: A simple Angularjs web app that converts text to url format
 date: 2019-05-29
 published: true
 tags: ['URL', 'AngularJS']

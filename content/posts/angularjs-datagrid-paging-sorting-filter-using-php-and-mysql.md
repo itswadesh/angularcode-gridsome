@@ -1,5 +1,5 @@
 ---
-title: AngularJS datagrid paging, sorting, filter using PHP and MySQL
+title: Angularjs datagrid paging, sorting, filter using PHP and Mysql
 date: 2019-07-25
 published: true
 tags: ['Datagrid', 'PHP', 'MySQL', 'AngularJS', 'CRUD']

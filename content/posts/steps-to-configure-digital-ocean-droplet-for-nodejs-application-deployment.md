@@ -1,5 +1,5 @@
 ---
-title: Steps to Configure Digital Ocean Droplet for NodeJS Application Deployment
+title: Steps to Configure Digital Ocean Droplet for Nodejs Application Deployment
 date: 2019-11-07
 published: true
 tags: ['NodeJS', 'Digital Ocean', 'PM2', 'NgInx']

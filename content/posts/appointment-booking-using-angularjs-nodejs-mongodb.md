@@ -1,5 +1,5 @@
 ---
-title: Appointment Booking using AngularJS, NodeJS, MongoDB
+title: Appointment Booking using Angularjs, Nodejs, Mongodb
 date: 2019-10-20
 published: true
 tags: ['NodeJS', 'AngularJS', 'MongoDB', 'Appointment Booking']

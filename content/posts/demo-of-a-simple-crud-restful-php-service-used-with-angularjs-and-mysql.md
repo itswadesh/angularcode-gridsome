@@ -1,5 +1,5 @@
 ---
-title: Demo of a simple CRUD RESTful php service used with AngularJS and MySQL
+title: Demo of a simple CRUD Restful php service used with Angularjs and Mysql
 date: 2019-08-15
 published: true
 tags: ['ReST', 'PHP', 'MySQL', 'AngularJS', 'CRUD']

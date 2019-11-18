@@ -1,5 +1,5 @@
 ---
-title: Creating REST API using NodeJS and consuming in AngularJS
+title: Creating REST API using Nodejs and consuming in Angularjs
 date: 2019-08-08
 published: true
 tags: ['ReST', 'NodeJS', 'AngularJS']

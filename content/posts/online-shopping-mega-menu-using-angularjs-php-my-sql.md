@@ -1,5 +1,5 @@
 ---
-title: Online Shopping Mega Menu using AngularJS, PHP, MySQL
+title: Online Shopping Mega Menu using Angularjs, PHP, Mysql
 date: 2019-07-10
 published: true
 tags: ['ReST', 'NodeJS', 'AngularJS']

@@ -1,5 +1,5 @@
 ---
-title: Simple project demonstrates how to send email using NodeJS
+title: Simple project demonstrates how to send email using Nodejs
 date: 2019-08-06
 published: true
 tags: ['NodeJS', 'Email']

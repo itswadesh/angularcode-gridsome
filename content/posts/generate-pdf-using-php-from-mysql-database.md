@@ -1,5 +1,5 @@
 ---
-title: Generate PDF using PHP from MySQL database
+title: Generate PDF using PHP from Mysql database
 date: 2019-08-08
 published: true
 tags: ['PDF', 'PHP', 'MySQL']

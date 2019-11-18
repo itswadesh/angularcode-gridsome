@@ -1,5 +1,5 @@
 ---
-title: Product - Inventory manager using AngularJS, MySQL and PHP RESTful API
+title: Inventory Manager Using Angularjs Mysql Php
 date: 2019-09-15
 published: true
 tags: ['ReST', 'PHP', 'AngularJS', 'CRUD']

@@ -1,5 +1,5 @@
 ---
-title: Voting system similar to stackoverflow using AngularJS PHP and MySQL
+title: Voting system similar to stackoverflow using Angularjs PHP and Mysql
 date: 2019-08-05
 published: true
 tags: ['Stackoverflow', 'PHP', 'MySQL', 'AngularJS']

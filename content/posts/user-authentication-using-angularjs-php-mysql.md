@@ -1,5 +1,5 @@
 ---
-title: User authentication using AngularJS, PHP, MySQL
+title: User authentication using Angularjs, PHP, Mysql
 date: 2019-08-25
 published: true
 tags: ['ReST', 'PHP', 'AngularJS', 'CRUD']

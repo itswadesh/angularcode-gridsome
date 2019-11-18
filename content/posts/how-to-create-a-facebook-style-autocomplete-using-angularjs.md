@@ -1,5 +1,5 @@
 ---
-title: How to create a facebook style autocomplete using AngularJS
+title: How to create a facebook style autocomplete using Angularjs
 date: 2019-06-30
 published: true
 tags: ['Facebook', 'Autocomplete', 'MySQL', 'AngularJS']

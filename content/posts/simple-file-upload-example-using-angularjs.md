@@ -1,5 +1,5 @@
 ---
-title: Simple file upload example using AngularJS
+title: Simple file upload example using Angularjs
 date: 2019-08-08
 published: true
 tags: ['PDF', 'PHP', 'MySQL']

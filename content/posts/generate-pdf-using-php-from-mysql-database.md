@@ -10,7 +10,14 @@ description: "We will discuss, how to generate a simple PDF file from your MySQL
 ---
 In this post I will explain you how to generate a simple PDF file from your MySQL database using PHP. For this purpose we will use the popular PHP library FPDF which will enable us to generate the PDF file with the content and ourput format we desire.
 
-<a href="/" class="button">Live Demo</a> <a href="/" class="button green">Download</a>
+<a href="http://demos.angularcode.com/pdf/" class="button green" target="_blank">Live Demo</a> 
+
+<div class="github">
+    <a href="https://github.com/itswadesh/generate-pdf-from-mysql-database-using-php" rel="nofollow" target="_blank">
+        <b>Generate PDF from MySQL</b>Download this project form Github
+    </a>
+</div>
+
 - Step-1: Get the data from MySQL database into the page
 - Step-1: Download the FPDF library from fpdf.org
 - Step-2: Copy the fpdf.php file into your application folder

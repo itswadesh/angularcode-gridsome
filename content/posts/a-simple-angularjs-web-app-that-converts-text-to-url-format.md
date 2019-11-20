@@ -14,8 +14,8 @@ We are going to create a very simple yet powerful web app using AngularJS from G
 <input class="col-md-9 search" ng-model="inputString" type="text"></input>  
 <span class="col-md-9" style="color:green"> {{inputString | clean}}</span>  
 ```
-
-[**Live Demo**](http://demos.angularcode.com/text-to-url/) [Download](https://www.dropbox.com/s/bzo3avux451s63o/text-to-url.zip?dl=0)
+<a href="http://demos.angularcode.com/text-to-url/" class="button green" target="_blank">Live Demo</a>
+[Download](https://www.dropbox.com/s/bzo3avux451s63o/text-to-url.zip?dl=0)
 
 As a very simple application we will require much less coding using AngularJS. We need only 1 javascript file from angularjs.org. We don’t need any kind of dependency. Hence our module injection will be blank. But we just need a AngularJS _\*filter \*_which will filter the input string and convert it into url format.
 

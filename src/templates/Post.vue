@@ -10,7 +10,7 @@
     </div>
     <div
       class="grid"
-      style="margin:0 auto"
+      style="margin:0 auto;max-width: 1195px;"
     >
       <div class="post content-box container">
         <div class="post__header">

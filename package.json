@@ -14,6 +14,7 @@
     "@gridsome/transformer-remark": "^0.4.0",
     "@noxify/gridsome-plugin-remark-embed": "^1.1.5",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-pwa": "^0.0.10",
     "gridsome-plugin-remark-prismjs-all": "^0.2.3",
     "vue-disqus": "^3.0.5"
   },

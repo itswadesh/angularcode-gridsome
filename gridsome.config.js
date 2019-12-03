@@ -10,6 +10,24 @@ module.exports = {
 
   plugins: [
     {
+      use: 'gridsome-plugin-pwa',
+      options: {
+        title: 'Angularcode',
+        startUrl: '/',
+        display: 'standalone',
+        statusBarStyle: 'default',
+        manifestPath: 'manifest.json',
+        serviceWorkerPath: 'service-worker.js',
+        cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
+        shortName: 'Angularcode',
+        themeColor: '#666600',
+        backgroundColor: '#ffffff',
+        icon: 'author.jpg', // must be provided
+        msTileImage: '',
+        msTileColor: '#666600'
+      }
+    },
+    {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-49421899-1'

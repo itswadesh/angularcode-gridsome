@@ -175,7 +175,7 @@ export default {
         <Adsense
           class="mb-5"
           ad-client="ca-pub-4530554109887102"
-          ad-slot="3131182012"
+          ad-slot="5568432357"
           ad-style="display:block !important;"
           ad-format="auto"
         >

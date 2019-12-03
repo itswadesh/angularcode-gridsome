@@ -5,6 +5,7 @@
     :data-ad-slot="adSlot"
     :data-ad-format="adFormat"
     :style="adStyle"
+    inline-style="display:inline-block;width:100%;"
   ></ins>
 </template>
 

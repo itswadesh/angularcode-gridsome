@@ -5,7 +5,11 @@
     </h1>
 
     <div class="posts">
-      <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+      <PostCard
+        v-for="edge in $page.tag.belongsTo.edges"
+        :key="edge.node.id"
+        :post="edge.node"
+      />
     </div>
   </Layout>
 </template>
@@ -33,21 +37,32 @@ query Tag ($id: ID!) {
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
+import Author from "~/components/Author.vue";
+import PostCard from "~/components/PostCard.vue";
 
 export default {
   components: {
     Author,
     PostCard
   },
-  metaInfo: {
-    title: 'Tags - Angularcode Programming Blog'
+  metaInfo() {
+    return {
+      title:
+        this.$page.tag.title +
+        " - Tutorials about Angular, ReactJS, PHP, NodeJS, VueJS",
+      meta: [
+        {
+          name: "description",
+          content:
+            this.$page.tag.title +
+            " - Angularcode Programming Blog - Tutorials about Angular, ReactJS, PHP, NodeJS, VueJS"
+        }
+      ]
+    };
   }
-}
+};
 </script>
 
 <style lang="scss">
-
 </style>
 

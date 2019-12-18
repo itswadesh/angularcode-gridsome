@@ -21,7 +21,7 @@ module.exports = {
         shortName: 'Angularcode',
         themeColor: '#666600',
         backgroundColor: '#ffffff',
-        icon: '~/assets/images/author.jpg', // must be provided
+        icon: 'src/assets/images/author.jpg', // must be provided
         msTileImage: '',
         msTileColor: '#666600'
       }

@@ -1,5 +1,5 @@
 <script>
-import Adsense from "~/components/Adsense.vue";
+// import Adsense from "~/components/Adsense.vue";
 export default {
   data() {
     return {
@@ -7,7 +7,7 @@ export default {
     };
   },
   components: {
-    Adsense
+    // Adsense
   },
   methods: {
     encode(data) {
@@ -172,14 +172,14 @@ export default {
     <div class="section-links">
       <div class="spacer"></div>
       <div class="site-reviews f45">
-        <Adsense
+        <!-- <Adsense
           class="mb-5"
           ad-client="ca-pub-4530554109887102"
           ad-slot="5568432357"
           ad-style="display:block !important;"
           ad-format="auto"
         >
-        </Adsense>
+        </Adsense> -->
       </div>
       <div class="spacer he1"></div>
     </div>

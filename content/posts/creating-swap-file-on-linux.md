@@ -1,6 +1,6 @@
 ---
 title: Creating SWAP file on Linux
-date: 2019-12-18
+date: 2015-12-18
 published: true
 tags: ['Ubuntu', 'CentOS', 'Linux']
 series: false

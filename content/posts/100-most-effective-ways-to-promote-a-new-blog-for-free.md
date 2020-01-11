@@ -6,7 +6,7 @@ tags: ['Promotion', 'Blog']
 series: false
 cover_image: https://1.bp.blogspot.com/-2MLDhZOagok/UJKKqsgdNSI/AAAAAAAAAZ8/1tftkarjGps/s1600/100-ways-to-promote-a-new-blog.png
 canonical_url: false
-description: "We are going to create a very simple yet powerful web app using AngularJS from Google. Our app will take any input and will convert it into URL format instantly"
+description: "Here I list out more than 100 ways to promote your new blog. All techniques defined here are free but need you to invest 1-2 days time to get the results"
 ---
 <div dir="ltr" style="text-align: left;" trbidi="on">
 While optimizing my own blog, I found out the following

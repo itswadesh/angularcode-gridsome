@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html ${htmlAttrs}>
-  <head>
-    ${head}
-  </head>
-  <body ${bodyAttrs}>
-    <script>
-      // Add dark / light detection that runs before Vue.js load. Borrowed from overreacted.io
-      (function() {
-        window.__onThemeChange = function() {};
-        function setTheme(newTheme) {
-          window.__theme = newTheme;
-          preferredTheme = newTheme;
-          document.body.setAttribute('data-theme', newTheme);
-          window.__onThemeChange(newTheme);
-        }
 
-        var preferredTheme;
+<head>
+  <meta name="description" content="Latest tutorials in web technology with live URL and working code at github" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image"
+    content="https://www.angularcode.com/assets/static/favicon.7b22250.e153480b3d39c84eb7faa65e7dc444b2.png" />
+  <meta property="og:description"
+    content="Latest tutorials in web technology with live URL and working code at github" />
+  ${head}
+</head>
+
+<body ${bodyAttrs}>
+  <script>
+    // Add dark / light detection that runs before Vue.js load. Borrowed from overreacted.io
+    (function () {
+      window.__onThemeChange = function () { };
+      function setTheme(newTheme) {
+        window.__theme = newTheme;
+        preferredTheme = newTheme;
+        document.body.setAttribute('data-theme', newTheme);
+        window.__onThemeChange(newTheme);
+      }
+
+      var preferredTheme;
+      try {
+        preferredTheme = localStorage.getItem('theme');
+      } catch (err) { }
+
+      window.__setPreferredTheme = function (newTheme) {
+        setTheme(newTheme);
         try {
-          preferredTheme = localStorage.getItem('theme');
+          localStorage.setItem('theme', newTheme);
         } catch (err) { }
+      }
 
-        window.__setPreferredTheme = function(newTheme) {
-          setTheme(newTheme);
-          try {
-            localStorage.setItem('theme', newTheme);
-          } catch (err) {}
-        }
+      var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      darkQuery.addListener(function (e) {
+        window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+      });
 
-        var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
-        darkQuery.addListener(function(e) {
-          window.__setPreferredTheme(e.matches ? 'dark' : 'light')
-        });
+      setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+    })();
+  </script>
 
-        setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
-      })();
+  ${app}
+  ${scripts}
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "website",
+      "url": "https://www.angularcode.com",
+      "logo": "https://www.angularcode.com/assets/static/favicon.7b22250.e153480b3d39c84eb7faa65e7dc444b2.png",
+      "sameAs" : [
+       "https://twitter.com/codenx2",
+       "https://www.facebook.com/codenx2",
+       "https://www.github.com/itswadesh"
+      ],
+      "contactPoint": [{
+          "@type": "ContactPoint",
+          "email": "support[@]angularcode.com",
+          "contactType": "customer service"
+        }]
+    }
     </script>
+</body>
 
-    ${app}
-    ${scripts}
-  </body>
 </html>

@@ -51,7 +51,16 @@ export default {
     RightSidebar
   },
   metaInfo: {
-    title: "Angularcode - Latest web technology tutorials with working examples"
+    title: "Latest web technology tutorials with working examples",
+    meta: [
+      { name: "author", content: "Swadesh Behera" },
+      {
+        key: "description",
+        name: "description",
+        content:
+          "Latest tutorials in web technology with live URL and working code at github"
+      }
+    ]
   }
 };
 </script>

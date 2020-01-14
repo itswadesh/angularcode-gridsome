@@ -75,6 +75,48 @@ export default {
       </div>
       <br />
       <a
+        href="//1.envato.market/40b00"
+        id="475676"
+      >
+        <img
+          src="https://wpwebagency.com/wp-content/uploads/2019/10/AAAA-min.png"
+          border="0"
+          alt=""
+          width="300"
+          height="300"
+        />
+      </a>
+      <img
+        height="0"
+        width="0"
+        src="//1.envato.market/i/2049488/475676/4415"
+        style="position:absolute;visibility:hidden;"
+        border="0"
+      />
+      <br />
+      <br />
+      <a
+        href="//1.envato.market/zGE57"
+        id="475676"
+      >
+        <img
+          src="https://codecanyon.img.customer.envatousercontent.com/files/278409137/COPPY%20CC%20Cover%20590x300.png?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=4068&max-w=300&s=dcca62717061ecc5303021911bb92842"
+          border="0"
+          alt=""
+          width="300"
+          height="300"
+        />
+      </a>
+      <img
+        height="0"
+        width="0"
+        src="//1.envato.market/i/2049488/475676/4415"
+        style="position:absolute;visibility:hidden;"
+        border="0"
+      />
+      <br />
+      <br />
+      <a
         target="_blank"
         href="https://www.amazon.in/gp/product/B07FRJTZ4T/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07FRJTZ4T&linkCode=as2&tag=swadesh0d-21&linkId=4c5ce98d62f883dc30da6fa8b274f958"
       ><img
@@ -152,7 +194,7 @@ export default {
     ></iframe>
     <a
       target="_blank"
-      href="http://preview.codecanyon.net/item/progressive-single-page-ecommerce-app-using-vuejs/full_screen_preview/20596887"
+      href="//1.envato.market/QLoLa"
     >
       <img src="https://s3.envato.com/files/236941986/banner.png">
     </a>

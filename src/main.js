@@ -16,10 +16,10 @@ export default function (Vue, { router, head, isClient }) {
     //   src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
     //   async: true
     // },
-    {
-      type: 'text/javascript',
-      src: '//code.tidio.co/bbqdjxermhlxw1szfobabtweql1ahm8j.js',
-      async: true
-    }
+    // {
+    //   type: 'text/javascript',
+    //   src: '//code.tidio.co/bbqdjxermhlxw1szfobabtweql1ahm8j.js',
+    //   async: true
+    // }
   )
 }

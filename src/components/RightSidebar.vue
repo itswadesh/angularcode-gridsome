@@ -18,7 +18,7 @@ export default {
         .join("&");
     },
     handleSubmit(e) {
-      fetch("/", {
+      fetch("https://api.litekart.in/api/email/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: this.encode({

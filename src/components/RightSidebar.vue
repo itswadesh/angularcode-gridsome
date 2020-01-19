@@ -90,6 +90,7 @@ export default {
         height="0"
         width="0"
         src="//1.envato.market/i/2049488/475676/4415"
+        alt=""
         style="position:absolute;visibility:hidden;"
         border="0"
       />
@@ -111,6 +112,7 @@ export default {
         height="0"
         width="0"
         src="//1.envato.market/i/2049488/475676/4415"
+        alt=""
         style="position:absolute;visibility:hidden;"
         border="0"
       />
@@ -122,6 +124,7 @@ export default {
       ><img
           border="0"
           src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B07FRJTZ4T&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=swadesh0d-21"
+          alt=""
         ></a><img
         src="//ir-in.amazon-adsystem.com/e/ir?t=swadesh0d-21&l=am2&o=31&a=B07FRJTZ4T"
         width="1"
@@ -196,7 +199,10 @@ export default {
       target="_blank"
       href="//1.envato.market/QLoLa"
     >
-      <img src="https://s3.envato.com/files/236941986/banner.png">
+      <img
+        src="https://s3.envato.com/files/236941986/banner.png"
+        alt=""
+      >
     </a>
     <div class="side_box vcard">
       <h3>Most Popular Posts</h3>

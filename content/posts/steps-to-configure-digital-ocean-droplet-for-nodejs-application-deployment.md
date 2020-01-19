@@ -2,13 +2,12 @@
 title: Steps to Configure Digital Ocean Droplet for Nodejs Application Deployment
 date: 2019-11-07
 published: true
-tags: ['NodeJS', 'Digital Ocean', 'PM2', 'NgInx']
+tags: ['nodejs', 'digital ocean', 'pm2', 'nginx']
 series: false
 cover_image: ./images/do.png
 canonical_url: false
 description: "How to setup and deploy nodejs application for production to ubuntu cloud.
-We will be using Digital Ocean Cloud droplets for this deployment. Digital Ocean is simple and easy to get started.
-Here are the list of steps that we need, in order to complete the setup process"
+We will be using Digital Ocean Cloud droplets for this deployment."
 ---
 
 I finished building my NodeJS app. Next step is to deploy it to some cloud server.

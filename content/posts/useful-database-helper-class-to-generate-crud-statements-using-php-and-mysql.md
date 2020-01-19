@@ -2,11 +2,11 @@
 title: Useful database helper class to generate CRUD statements using PHP and Mysql
 date: 2019-07-12
 published: true
-tags: ['ReST', 'PHP', 'AngularJS', 'CRUD']
+tags: ['rest', 'php', 'angularjs', 'crud']
 series: false
 cover_image: ./images/crud-using-restful-webservice-with-angularjs.png
 canonical_url: false
-description: "This database helper class generate the CRUD statements dynamically and always output the response in a standard format. Hence reducing the recurring tasks load on programmer. This also makes bug tracking task easy as everything stores in a central location."
+description: "This database helper class generate the CRUD statements dynamically and always output the response in a standard format. Hence reducing the recurring tasks load on programmer"
 ---
 For my AngularJS applications I use PHP as my server side language which mainly interacts with the MySQL or Oracle database. I need to created a database helper class using PHP to collect all recurring database operations into a single class, so that we can easily use it whenever we need to select, insert, update or delete record from database.
 

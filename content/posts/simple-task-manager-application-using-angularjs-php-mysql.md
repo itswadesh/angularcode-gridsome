@@ -2,7 +2,7 @@
 title: Simple task manager application using Angularjs PHP Mysql
 date: 2019-09-31
 published: true
-tags: ['Facebook', 'Autocomplete', 'MySQL', 'AngularJS']
+tags: ['facebook', 'autocomplete', 'mysql', 'angularjs']
 series: false
 cover_image: ./images/task-manager.jpg
 canonical_url: false

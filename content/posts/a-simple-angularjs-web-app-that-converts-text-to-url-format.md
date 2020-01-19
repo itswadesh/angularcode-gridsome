@@ -2,7 +2,7 @@
 title: A simple Angularjs web app that converts text to url format
 date: 2019-05-29
 published: true
-tags: ['URL', 'AngularJS']
+tags: ['url', 'angularjs']
 series: false
 cover_image: ./images/angularjs-filter-text-to-url.jpg
 canonical_url: false

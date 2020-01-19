@@ -2,11 +2,11 @@
 title: Angularjs datagrid paging, sorting, filter using PHP and Mysql
 date: 2019-07-25
 published: true
-tags: ['Datagrid', 'PHP', 'MySQL', 'AngularJS', 'CRUD']
+tags: ['datagrid', 'php', 'mysql', 'angularjs', 'crud']
 series: false
 cover_image: ./images/datagrid.jpg
 canonical_url: false
-description: "This tutorial explains how to create a datagrid similar to ASP.NET gridview with client side paging, searching and sorting functionality using AngularJS, PHP, MySQL. Following are links to the demo and download of the final application."
+description: "This tutorial explains how to create a datagrid similar to ASP.NET gridview with client side paging, searching and sorting functionality using AngularJS, PHP, MySQL"
 ---
 This tutorial explains how to create a datagrid similar to ASP.NET gridview with client side paging, searching and sorting functionality using AngularJS, PHP, MySQL. Following are links to the demo and download of the final application.
 

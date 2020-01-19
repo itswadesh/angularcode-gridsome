@@ -2,7 +2,7 @@
 title: 100+ most effective ways to promote a new blog for free
 date: 2020-01-11
 published: true
-tags: ['Promotion', 'Blog']
+tags: ['promotion', 'blog']
 series: false
 cover_image: ./images/megaphone-announcement.jpg
 canonical_url: false

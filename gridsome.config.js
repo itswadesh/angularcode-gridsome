@@ -9,6 +9,27 @@ module.exports = {
 
   plugins: [
     {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'BlogPost',
+        feedOptions: {
+          title: 'Angularcode Programming Blog',
+          feed_url: 'https://www.angularcode.com/rss.xml',
+          site_url: 'https://www.angularcode.com'
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.description,
+          url: 'https://www.angularcode.com/' + node.slug,
+          author: node.fields.author
+        }),
+        output: {
+          dir: './static',
+          name: 'rss.xml'
+        }
+      }
+    },
+    {
       use: 'gridsome-plugin-pwa',
       options: {
         title: 'Angularcode',

@@ -2,11 +2,11 @@
 title: Appointment Booking using Angularjs, Nodejs, Mongodb
 date: 2019-10-20
 published: true
-tags: ['NodeJS', 'AngularJS', 'MongoDB', 'Appointment Booking']
+tags: ['nodejs', 'angularjs', 'mongodb', 'appointment booking']
 series: false
 cover_image: ./images/simple-appointment-booking-using-angularjs.png
 canonical_url: false
-description: "In this tutorial, we will create a simple, real and single page Appointment Booking web application using Javascript Fullstack or MEAN Stack (MongoDB + Express + AngualrJS + NodeJS) which can also be used as an Event Scheduler."
+description: "In this tutorial, we will create a simple, real and single page Appointment Booking web application using Javascript Fullstack"
 ---
 
 In this tutorial, we will create a simple, real and single page Appointment Booking web application using Javascript Fullstack or MEAN Stack (MongoDB + Express + AngualrJS + NodeJS) which can also be used as an Event Scheduler.

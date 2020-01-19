@@ -2,7 +2,7 @@
 title: Creating SWAP file on Linux
 date: 2015-12-18
 published: true
-tags: ['Ubuntu', 'CentOS', 'Linux']
+tags: ['ubuntu', 'centos', 'linux']
 series: false
 cover_image: ./images/angularcode-swap-file-linux.png
 canonical_url: false
@@ -50,7 +50,7 @@ nano /etc/sysctl.conf
 ```
 Add the following at bottom of file:
 ```
-# Swap Configuration
+## Swap Configuration
 vm.swappiness=10
 vm.vfs_cache_pressure=50
 ```

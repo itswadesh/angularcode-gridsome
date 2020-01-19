@@ -2,7 +2,7 @@
 title: How to change Mysql password
 date: 2019-06-02
 published: true
-tags: ['MySQL', 'Password']
+tags: ['mysql', 'password']
 series: false
 canonical_url: false
 description: "Here is the code to change MySQL password which is latest and works fine for me."

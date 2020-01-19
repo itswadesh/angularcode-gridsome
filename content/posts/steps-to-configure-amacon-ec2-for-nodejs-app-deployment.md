@@ -2,7 +2,7 @@
 title: Steps to Configure Amazon EC2 for Nodejs app deployment
 date: 2019-09-15
 published: true
-tags: ['NodeJS', 'Amazon EC2', 'PM2', 'MongoDB']
+tags: ['nodejs', 'amazon ec2', 'pm2', 'mongodb']
 series: false
 cover_image: ./images/configure-amacon-ec2-for-nodejs-app-deployment.png
 canonical_url: false

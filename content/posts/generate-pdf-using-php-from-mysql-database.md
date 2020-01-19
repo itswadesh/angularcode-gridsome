@@ -2,7 +2,7 @@
 title: Generate PDF using PHP from Mysql database
 date: 2019-08-08
 published: true
-tags: ['PDF', 'PHP', 'MySQL']
+tags: ['pdf', 'php', 'mysql']
 series: false
 cover_image: ./images/generate-pdf-from-mysql-database.png
 canonical_url: false

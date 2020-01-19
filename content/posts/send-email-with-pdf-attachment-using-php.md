@@ -2,7 +2,7 @@
 title: Send email with PDF attachment using PHP
 date: 2019-10-09
 published: true
-tags: ['PHP', 'PdF', 'email']
+tags: ['php', 'pdf', 'email']
 series: false
 cover_image: ./images/send-email-with-pdf-attachment-using-php.png
 canonical_url: false

@@ -2,11 +2,11 @@
 title: User authentication using Angularjs, PHP, Mysql
 date: 2019-08-25
 published: true
-tags: ['ReST', 'PHP', 'AngularJS', 'CRUD']
+tags: ['rest', 'php', 'angularjs', 'crud']
 series: false
 cover_image: ./images/angular_auth.jpg
 canonical_url: false
-description: "I received a number of tutorial requests to publish a tutorial on user authentication. They say “Mixing PHP, MySQL, and AngularJS with Sessions and User Login, Logout, Account Creation would be awesome”"
+description: "Mixing PHP, MySQL, and AngularJS with Sessions and User Login, Logout, Account Creation would be awesome"
 ---
 I received a number of tutorial requests to publish a tutorial on user authentication. They say “Mixing PHP, MySQL, and AngularJS with Sessions and User Login, Logout, Account Creation” would be awesome”.
 

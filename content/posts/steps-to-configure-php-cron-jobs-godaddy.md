@@ -2,7 +2,7 @@
 title: Steps configuring PHP Cron Jobs - Godaddy
 date: 2019-06-06
 published: true
-tags: ['Godaddy', 'PHP', 'Cron Jobs']
+tags: ['godaddy', 'php', 'cron jobs']
 series: false
 cover_image: ./images/setup-php-cron-jobs-at-godaddy.png
 canonical_url: false

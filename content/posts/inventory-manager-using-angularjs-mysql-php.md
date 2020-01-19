@@ -2,11 +2,11 @@
 title: Inventory Manager Using Angularjs Mysql Php
 date: 2019-09-15
 published: true
-tags: ['ReST', 'PHP', 'AngularJS', 'CRUD']
+tags: ['rest', 'php', 'angularjs', 'crud']
 series: false
 cover_image: ./images/product-manger.jpg
 canonical_url: false
-description: "We will add, update, delete, activate, deactivate products from inventory. Some AngularJS directives will make our job easy."
+description: "We will add, update, delete, activate, deactivate products from inventory. Some AngularJS directives will make our job easy"
 ---
 Last tutorial we created a [database helper class for PHP RESTful API](http://www.angularcode.com/useful-database-helper-class-to-generate-crud-statements-using-php-and-mysql/). In this tutorial we will use that database helper class to build a simple inventory/product manager application. We will add, update, delete, activate, deactivate products from inventory. Some AngularJS directives will make our job easy.
 

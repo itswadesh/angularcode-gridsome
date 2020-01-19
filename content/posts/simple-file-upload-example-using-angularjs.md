@@ -2,7 +2,7 @@
 title: Simple file upload example using Angularjs
 date: 2019-08-08
 published: true
-tags: ['PDF', 'PHP', 'MySQL']
+tags: ['pdf', 'php', 'mysql']
 series: false
 cover_image: ./images/simple-file-uploader-using-angularjs.png
 canonical_url: false
@@ -17,7 +17,7 @@ Hi. In this tutorial we will create an AngularJS web app that will upload the us
     </a>
 </div>
 
-# Installation
+## Installation
 Open Command Prompt and navigate to the downloaded directory `simple-file-uploader`
 
 Run the following command
@@ -26,7 +26,7 @@ Run the following command
 node .
 ```
 
-## Project Structure
+### Project Structure
 The web application code is mainly separated into 2 parts (Client and Server)
 
 public
@@ -37,12 +37,12 @@ code
 
 https://gist.github.com/itswadesh/afe1d5b7daf075449f6353b797d088ec.json
 
-### .gitignore
+#### .gitignore
 It contains files that will be ignored by git to upload
 .git
 node_modules
 
-### package.json
+#### package.json
 It contains Required node packages
 
 https://gist.github.com/itswadesh/c3a9b0152c8b7861e091cef7044c3074.json

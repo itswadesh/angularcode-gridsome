@@ -2,7 +2,7 @@
 title: Creating REST API using Nodejs and consuming in Angularjs
 date: 2019-08-08
 published: true
-tags: ['ReST', 'NodeJS', 'AngularJS']
+tags: ['rest', 'nodejs', 'angularjs']
 series: false
 cover_image: ./images/rest.png
 canonical_url: false

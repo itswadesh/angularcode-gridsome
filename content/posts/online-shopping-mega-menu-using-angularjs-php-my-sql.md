@@ -2,11 +2,11 @@
 title: Online Shopping Mega Menu using Angularjs, PHP, Mysql
 date: 2019-07-10
 published: true
-tags: ['ReST', 'NodeJS', 'AngularJS']
+tags: ['rest', 'nodejs', 'angularjs']
 series: false
 cover_image: ./images/rest.png
 canonical_url: false
-description: "We find E-Commerce mega menu in almost all online shopping websites where they display the all their available category of products. We will design the database and use AngularJS to easily present the menu to the user with some interactions."
+description: "We will create E-Commerce megamenu to display all the available category of products using AngularJS"
 ---
 We find E-Commerce mega menu in almost all online shopping websites where they display the all their available category of products. We will design the database and use AngularJS to easily present the menu to the user with some interactions.
 

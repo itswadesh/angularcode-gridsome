@@ -2,11 +2,11 @@
 title: Demo of a simple CRUD Restful php service used with Angularjs and Mysql
 date: 2019-08-15
 published: true
-tags: ['ReST', 'PHP', 'MySQL', 'AngularJS', 'CRUD']
+tags: ['rest', 'php', 'mysql', 'angularjs', 'crud']
 series: false
 cover_image: ./images/crud-using-restful-webservice-with-angularjs.jpg
 canonical_url: false
-description: "In this tutorial we will create a RESTful web service using PHP. Also we will create a Customer Manager Application using AngularJS as front end which will consume this web service."
+description: "In this tutorial we will create a RESTful web service using PHP. Also we will create a Customer Manager Application using AngularJS as front end"
 ---
 REST represents Representational State Transfer. For web applications REST API is a good architectural choice for the communication between the app and the server. This makes sharing data between different devices and apps easy. Implementing REST is simpler compared to other methods like SOAP, CORBA, WSDL. In this tutorial we will create a RESTful web service using PHP. Also we will create a Customer Manager Application using AngularJS as front end which will consume this web service.
 

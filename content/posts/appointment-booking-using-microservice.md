@@ -2,16 +2,16 @@
 title: Appointment Booking Microservice using Javascript Fullstack
 date: 2020-01-12
 published: true
-tags: ['Zeit', 'Microservice', 'Serverless', 'NodeJS', 'AngularJS', 'MongoDB', 'Appointment Booking']
+tags: ['zeit', 'microservice', 'serverless', 'nodejs', 'angularjs', 'mongodb', 'appointment booking']
 series: false
 cover_image: ./images/appointment-booking.png
 canonical_url: false
-description: "In this tutorial, we will create a simple, real and single page Appointment Booking web application using Javascript Fullstack or MEAN Stack (Microservice + MongoDB + Express + AngualrJS + NodeJS) which can also be used as an Event Scheduler."
+description: "In this tutorial, we will create a simple, real and single page Appointment Booking web application using Javascript Fullstack which can also be used as an Event Scheduler."
 ---
 
 Sometime before I created an appointment booking app using AngularJS and it was huge popular amoung my readers. So I decided to re-create the same using the microservice architecture
 
-# Features
+## Features
 
 - This reduces hosting cost
 - Easy to deploy
@@ -28,13 +28,13 @@ Sometime before I created an appointment booking app using AngularJS and it was 
 
 This time we will use MLab for MongoDB (a self hosted mongodb database as service)
 
-# Start
+## Start
 1. Download now-cli `npm i -g now`
 2. Clone or Download the project from github. Then just run the command `now`
 
 Everything else will be taken care and you must see a url returned by now-cli and your app is live
 
-# Now
+## Now
 Now is the service which will host our microservice. Inside now.json we define all the instructions to setup our microservice at Now server
 ```
 {
@@ -86,7 +86,7 @@ Now is the service which will host our microservice. Inside now.json we define a
 }
 ```
 
-## Code
+### Code
 
 api/appointments/index
 This is the only file for our microservice. here we 

@@ -4,7 +4,7 @@ date: 2020-01-11
 published: true
 tags: ['Promotion', 'Blog']
 series: false
-cover_image: /megaphone-announcement.jpg
+cover_image: ./images/megaphone-announcement.jpg
 canonical_url: false
 description: "Here I list out more than 100 ways to promote your new blog. All techniques defined here are free but need you to invest 1-2 days time to get the results"
 ---

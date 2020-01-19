@@ -59,6 +59,19 @@ export default {
         name: "description",
         content:
           "Latest tutorials in web technology with live URL and working code at github"
+      },
+      {
+        property: "og:title",
+        content: "Latest web technology tutorials with working examples"
+      },
+      {
+        property: "og:image",
+        content: "https://www.angularcode.com/mobile-app-development.jpg"
+      },
+      {
+        property: "og:description",
+        content:
+          "Latest tutorials in web technology with live URL and working code at github"
       }
     ]
   }

@@ -1,7 +1,7 @@
 module.exports = {
   siteName: 'Angularcode',
   siteUrl: 'https://www.angularcode.com',
-
+  titleTemplate: '%s',
   templates: {
     Post: '/:title',
     Tag: '/tag/:id'

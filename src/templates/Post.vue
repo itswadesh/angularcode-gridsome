@@ -67,8 +67,20 @@ export default {
     return {
       title: this.$page.post.title,
       meta: [
+        { name: "author", content: "Swadesh Behera" },
         {
+          key: "description",
           name: "description",
+          content: this.$page.post.description
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.post.title
+        },
+        {
+          key: "og:description",
+          property: "og:description",
           content: this.$page.post.description
         }
       ]

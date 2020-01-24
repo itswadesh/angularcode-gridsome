@@ -11,7 +11,7 @@ module.exports = {
     {
       use: 'gridsome-plugin-rss',
       options: {
-        contentTypeName: 'BlogPost',
+        contentTypeName: 'Post',
         feedOptions: {
           title: 'Angularcode Programming Blog',
           feed_url: 'https://www.angularcode.com/rss.xml',
@@ -20,8 +20,9 @@ module.exports = {
         feedItemOptions: node => ({
           title: node.title,
           description: node.description,
-          url: 'https://www.angularcode.com/' + node.slug,
-          author: node.fields.author
+          url: 'https://www.angularcode.com' + node.path,
+          author: node.author,
+          date: node.date,
         }),
         output: {
           dir: './static',

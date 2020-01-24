@@ -17,6 +17,7 @@
     "gridsome": "^0.7.12",
     "gridsome-plugin-pwa": "^0.0.12",
     "gridsome-plugin-remark-prismjs-all": "^0.2.3",
+    "gridsome-plugin-rss": "^1.2.0",
     "vue-disqus": "^3.0.5",
     "yarn": "^1.21.1"
   },

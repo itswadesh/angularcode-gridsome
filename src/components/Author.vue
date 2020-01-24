@@ -31,7 +31,7 @@
         target="blank"
       >GitHub</a>
       <a
-        href="//facebook.com/codenx2"
+        href="//www.facebook.com/codenx2"
         target="blank"
       >Facebook</a>
     </p>

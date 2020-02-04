@@ -1,5 +1,5 @@
 <script>
-// import Adsense from "~/components/Adsense.vue";
+import Adsense from "~/components/Adsense.vue";
 export default {
   data() {
     return {
@@ -7,7 +7,7 @@ export default {
     };
   },
   components: {
-    // Adsense
+    Adsense
   },
   methods: {
     encode(data) {
@@ -74,7 +74,7 @@ export default {
         </form>
       </div>
       <br />
-      <a
+      <!-- <a
         href="//1.envato.market/40b00"
         id="475676"
       >
@@ -132,7 +132,7 @@ export default {
         border="0"
         alt=""
         style="border:none !important; margin:0px !important;"
-      />
+      /> -->
       <!-- <form
           action="https://feedburner.google.com/fb/a/mailverify"
           method="post"
@@ -235,14 +235,14 @@ export default {
     <div class="section-links">
       <div class="spacer"></div>
       <div class="site-reviews f45">
-        <!-- <Adsense
+        <Adsense
           class="mb-5"
           ad-client="ca-pub-4530554109887102"
           ad-slot="5568432357"
           ad-style="display:block !important;"
           ad-format="auto"
         >
-        </Adsense> -->
+        </Adsense>
       </div>
       <div class="spacer he1"></div>
     </div>

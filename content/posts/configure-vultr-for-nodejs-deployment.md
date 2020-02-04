@@ -12,11 +12,11 @@ We will be using Vultr for this deployment."
 
 I finished building my NodeJS app. Next step is to deploy it to some cloud server.
 In this tutorial I will guide you how to setup and deploy nodejs application for production to ubuntu cloud. 
-We will be using [Vultr](https://www.vultr.com/?ref=8404231-6G) Cloud droplets for this deployment. Vultr is simple and easy to get started.
+We will be using [Vultr](https://www.vultr.com/?ref=8404231-6G) Cloud instances for this deployment. Vultr is simple and easy to get started.
 
 Here are the list of steps that we need, in order to complete the setup process
 
-1. <a href="#create">Create and start a droplet</a>
+1. <a href="#create">Create and start a instance</a>
 2. <a href="#login">Login to that instance</a>
 3. <a href="#install">Install NodeJS</a>
 4. <a href="#configure">Configure timezone</a>
@@ -30,13 +30,13 @@ Here are the list of steps that we need, in order to complete the setup process
 <h1 id="create"> Create and start an instance </h1>
 Head to <a href="https://www.vultr.com/?ref=8404231-6G">https://www.vultr.com</a> and create a Vultr account.
 
-Login to <a href="https://www.vultr.com/?ref=8404231-6G">Vultr</a> panel and create the droplet. for a nodejs project it is recommended to go for 2GB RAM droplet
+Login to <a href="https://www.vultr.com/?ref=8404231-6G">Vultr</a> panel and create the instance. for a nodejs project it is recommended to go for 2GB RAM instance
 
 Choose a region closer to your target audience location
 Select UBUNTU 18.x as the operating system
 
-<h1 id="login"> Login to that droplet </h1>
-The droplet creation will take somewhere between 1–3 minutes. Upon completion, it will be assigned with an IP Address
+<h1 id="login"> Login to that instance </h1>
+The instance creation will take somewhere between 1–3 minutes. Upon completion, it will be assigned with an IP Address
 
 Option-1 (Using password)
 ---------

@@ -19,7 +19,7 @@
     "gridsome-plugin-remark-prismjs-all": "^0.2.3",
     "gridsome-plugin-rss": "^1.2.0",
     "vue-disqus": "^3.0.5",
-    "yarn": "^1.21.1"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "node-sass": "^4.13.1",

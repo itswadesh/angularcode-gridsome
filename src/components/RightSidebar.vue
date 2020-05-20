@@ -1,43 +1,41 @@
 <script>
-import Adsense from "~/components/Adsense.vue";
+// import Adsense from "~/components/Adsense.vue";
 export default {
   data() {
     return {
-      formData: {}
-    };
+      formData: {},
+    }
   },
   components: {
-    Adsense
+    // Adsense
   },
   methods: {
     encode(data) {
       return Object.keys(data)
         .map(
-          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+          (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
         )
-        .join("&");
+        .join('&')
     },
     handleSubmit(e) {
-      fetch("https://api.litekart.in/api/email/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      fetch('https://api.litekart.in/api/email/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: this.encode({
-          "form-name": e.target.getAttribute("name"),
-          ...this.formData
-        })
+          'form-name': e.target.getAttribute('name'),
+          ...this.formData,
+        }),
       })
-        .then(() => this.$router.push("/success"))
-        .catch(error => alert(error));
-    }
-  }
-};
+        .then(() => this.$router.push('/success'))
+        .catch((error) => alert(error))
+    },
+  },
+}
 </script>
 <template>
   <div class="rightside">
     <div class="subscription-box">
-      <div>
-        Subscribe my updates via <b>Email </b>
-      </div>
+      <div>Subscribe my updates via <b>Email </b></div>
       <div>
         <form
           name="subscribers"
@@ -47,15 +45,9 @@ export default {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input
-            type="hidden"
-            name="form-name"
-            value="subscribers"
-          />
+          <input type="hidden" name="form-name" value="subscribers" />
           <p hidden>
-            <label>
-              Don’t fill this out: <input name="bot-field" />
-            </label>
+            <label> Don’t fill this out: <input name="bot-field" /> </label>
           </p>
           <div class="sender-info fx">
             <input
@@ -65,11 +57,9 @@ export default {
               name="email"
               v-model="formData.email"
             />
-            <button
-              class="button green"
-              name="subscribe"
-              type="submit"
-            >Subscribe</button>
+            <button class="button green" name="subscribe" type="submit">
+              Subscribe
+            </button>
           </div>
         </form>
       </div>
@@ -172,7 +162,6 @@ export default {
         </div>
       </div> -->
       <div class="clearboth"></div>
-
     </div>
     <iframe
       id="twitter-widget-0"
@@ -195,27 +184,18 @@ export default {
       allowTransparency="true"
       allow="encrypted-media"
     ></iframe>
-    <a
-      target="_blank"
-      href="//1.envato.market/QLoLa"
-    >
-      <img
-        src="https://s3.envato.com/files/236941986/banner.png"
-        alt=""
-      >
+    <a target="_blank" href="//1.envato.market/QLoLa">
+      <img src="https://s3.envato.com/files/236941986/banner.png" alt="" />
     </a>
     <div class="side_box vcard">
       <h3>Most Popular Posts</h3>
-      <ul
-        class="section"
-        id="addsections7"
-      >
+      <ul class="section" id="addsections7">
         <li
           v-for="edge in $static.posts.edges"
           :key="edge.node.id"
           :post="edge.node"
         >
-          <a :href="edge.node.path">{{edge.node.title}}</a>
+          <a :href="edge.node.path">{{ edge.node.title }}</a>
         </li>
       </ul>
     </div>
@@ -223,11 +203,10 @@ export default {
       <h3>Categories</h3>
       <div class="spacer"></div>
       <div class="site-reviews f45">
-        <ul
-          v-for="tag in $static.tags.edges"
-          :key="tag.node.id"
-        >
-          <li><a :href="tag.node.path">{{tag.node.title}}</a></li>
+        <ul v-for="tag in $static.tags.edges" :key="tag.node.id">
+          <li>
+            <a :href="tag.node.path">{{ tag.node.title }}</a>
+          </li>
         </ul>
       </div>
       <div class="spacer he1"></div>
@@ -235,14 +214,14 @@ export default {
     <div class="section-links">
       <div class="spacer"></div>
       <div class="site-reviews f45">
-        <Adsense
+        <!-- <Adsense
           class="mb-5"
           ad-client="ca-pub-4530554109887102"
           ad-slot="5568432357"
           ad-style="display:block !important;"
           ad-format="auto"
         >
-        </Adsense>
+        </Adsense> -->
       </div>
       <div class="spacer he1"></div>
     </div>

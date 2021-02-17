@@ -93,3 +93,17 @@ You should get the following output
     "tagline": "You Know, for Search"
 }
 ```
+
+### Setup password to secure elastic search instance
+
+- Verify that the xpack.security.enabled setting is true on each node in your cluster.
+
+ -- sudo nano /etc/elasticsearch/elasticsearch.yml
+```
+xpack.security.enabled
+```
+
+```
+cd /usr/share/elasticsearch
+./bin/elasticsearch-setup-passwords
+```

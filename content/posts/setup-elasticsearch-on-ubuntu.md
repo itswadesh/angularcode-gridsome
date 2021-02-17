@@ -1,6 +1,6 @@
 ---
 title: Complete steps to configure elasticsearch on Ubuntu
-date: 2019-10-29
+date: 2021-02-17
 published: true
 tags: ['elastic search', 'ubuntu']
 series: false
@@ -44,7 +44,11 @@ sudo nano /etc/elasticsearch/elasticsearch.yml
 
 Change the fllowing
 ```
-network.host: 0.0.0.0
+cluster.initial_master_nodes: node-1
+network.host: ["0.0.0.0, 127.0.0.1,[::1]"]
+network.bind_host: 0.0.0.0
+network.publish_host: 0.0.0.0
+http.host: 0.0.0.0
 ```
 
 ## Step-4: Setup JVM options based on available RAM

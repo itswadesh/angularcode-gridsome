@@ -136,7 +136,7 @@ Directives are one of the most powerful part of the AngularJS framework. Using t
 
 We can extensively use these AngularJS directives to create templates, to validate forms, etc.
 
-In AngularJS, it is always recommended to manipulate the DOM using directives only.
+In AngularJS, it is always recommended to manipulate the DOM using directives only
 
 <hr/>
 

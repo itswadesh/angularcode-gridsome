@@ -6,8 +6,9 @@ tags: ['rest', 'php', 'angularjs', 'crud']
 series: false
 cover_image: ./images/angular_auth.jpg
 canonical_url: false
-description: "Mixing PHP, MySQL, and AngularJS with Sessions and User Login, Logout, Account Creation would be awesome"
+description: 'Mixing PHP, MySQL, and AngularJS with Sessions and User Login, Logout, Account Creation would be awesome'
 ---
+
 I received a number of tutorial requests to publish a tutorial on user authentication. They say “Mixing PHP, MySQL, and AngularJS with Sessions and User Login, Logout, Account Creation” would be awesome”.
 
 We will create a simple AngularJS web app that will have the following 3 functionality.
@@ -16,7 +17,8 @@ _\* Login, Signup and Logout._\*
 
 We will create a ReSTful web service using PHPSlim framework as data provider. The data from the ReSTful service will be used to enable user authentication in our AngularJS application.
 
-<a href="http://demos.angularcode.com/angularcode-authentication-app/#/login" class="button green" target="_blank">Live Demo</a> 
+<a href="http://demos.angularcode.com/angularcode-authentication-app/#/login" class="button green" target="_blank">Live Demo</a>
+
 <div class="github">
     <a href="https://github.com/itswadesh/angularcode-authentication-app" rel="nofollow" target="_blank">
         <b>Authentication using AngularJS, PHP, MySQL</b>Download this project form Github
@@ -25,12 +27,11 @@ We will create a ReSTful web service using PHPSlim framework as data provider. T
 
 To run the user authentication web application in your local machine, follow the following 3 simple steps.
 
-*   *Download* the project files
-*   Import **_angularcode\_auth.sql_**
-*   Enable **_rewrite\_module_**in apache server for friendly urls
+- _Download_ the project files
+- Import **_angularcode_auth.sql_**
+- Enable **_rewrite_module_**in apache server for friendly urls
 
-Tutorial:
----------
+## Tutorial:
 
 We will first create the Login page. After the user enters the correct combination of email and password, it will be authenticated from the credentials stored at our MySQL database. On successful login it will store the credentials in the user session and redirect to the welcome page. All subsequent pages browsed after login will have access to the user information.
 
@@ -85,7 +86,7 @@ The only file you need to change is the “**config.php**” \[ This file contai
 
 https://gist.github.com/itswadesh/2f418f19e53201628ac6932c741ef786.json
 
-Also we need to import the “**angularcode\_auth.sql**” file into our MySQL database
+Also we need to import the “**angularcode_auth.sql**” file into our MySQL database
 
 https://gist.github.com/itswadesh/143aeb55a5ff8244f42ffd5b2baea459.json
 
@@ -136,3 +137,7 @@ Directives are one of the most powerful part of the AngularJS framework. Using t
 We can extensively use these AngularJS directives to create templates, to validate forms, etc.
 
 In AngularJS, it is always recommended to manipulate the DOM using directives only.
+
+<hr/>
+
+Are you looking for a job in the field of AngularJS? Find <a href="https://jooble.org/jobs-web-application-developer" rel="nofollow" target="blank">Web application developer jobs</a> quickly
